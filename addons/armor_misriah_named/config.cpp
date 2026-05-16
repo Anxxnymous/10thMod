@@ -355,4 +355,26 @@ class cfgWeapons {
 
 	// Trollface
 	#include "data\Trollface\armor.hpp"
+
+//
+	// Alamo
+	#include "data\Alamo\armor.hpp"
+
+	// Altered
+	#include "data\Altered\armor.hpp"
+
+	// Dragonheart
+	#include "data\Dragonheart\armor.hpp"
+
+	// Kenjin
+	#include "data\Kenjin\armor.hpp"
+
+	// Magna
+	#include "data\Magna\armor.hpp"
+
+	// Mustang
+	#include "data\Mustang\armor.hpp"
+
+	// Toaster
+	#include "data\Toaster\armor.hpp"
 };

@@ -1,36 +1,34 @@
-	class Tenthed_M56A_Helmet_Nightmare : Tenthed_M56A_Helmet {
+	class Tenthed_M56A_Helmet_Toaster : Tenthed_M56A_Helmet {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56-A Helmet (Nightmare)";
+		displayName="[10th] M56-A Helmet (Toaster)";
 		model="MA_Armor\data\Helmets\AA\AA_Helmet.p3d";
 		picture="MA_Armor\data\Icons\AA_Helmet.paa";
 		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
-			"z\10thMod\addons\armor_misriah_named\data\Nightmare\AA_Helmet_Nightmare_co.paa",
+			"z\10thMod\addons\armor_misriah_named\data\Toaster\AA_Helmet_Toaster_co.paa",
 			//"MA_Armor\data\Helmets\AA\AA_Visor_Blue_co.paa" // Blue Visor
-			//"MA_Armor\data\Helmets\AA\AA_Visor_Black_co.paa" // Black Visor
+			"MA_Armor\data\Helmets\AA\AA_Visor_Black_co.paa" // Black Visor
 			//"MA_Armor\data\Helmets\AA\AA_Visor_Gold_co.paa" // Gold Visor
-			"MA_Armor\data\Helmets\AA\AA_Visor_Red_co.paa" // Red Visor
+			//"MA_Armor\data\Helmets\AA\AA_Visor_Red_co.paa" // Red Visor
 			//"MA_Armor\data\Helmets\AA\AA_Visor_White_co.paa"// White Visor
 		};
 		class ItemInfo: ItemInfo {
 			uniformModel="MA_Armor\data\Helmets\AA\AA_Helmet.p3d";
 		};
 	};
-
-
-	class Tenthed_M56R_Vest_Nightmare : Tenthed_Vest_Base {
+	class Tenthed_M56R_Vest_Toaster : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Armor (Nightmare)";
+		displayName="[10th] M56R Armor (Toaster)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= { // Change folder to Armor-Misriah\data and put files into that folder. example "Armor-Misriah\data\akira_helmet.paa"
 			// No other texture files then the ones with comments will be altered.
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
-			"z\10thMod\addons\armor_misriah_base\data\Default-Pouch.paa", // Thigh pouch texture
-			"z\10thMod\addons\armor_misriah_named\data\Nightmare\Reach_Armor_Upper_Nightmare_co.paa", // Upper armor texture and base ODST shoulders.
-			"z\10thMod\addons\armor_misriah_named\data\Nightmare\Reach_Armor_Lower_Nightmare_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa", // Thigh pouch texture
+			"z\10thMod\addons\armor_misriah_named\data\Toaster\Reach_Armor_Upper_Toaster_co.paa", // Upper armor texture and base ODST shoulders.
+			"z\10thMod\addons\armor_misriah_base\data\Default-Legs.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa", // Canisters texture
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa", // Sniper Shoulders
